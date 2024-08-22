@@ -14,8 +14,6 @@ contract CrowdFunding {
         uint256[] donations;
     }
 
-
-
     mapping (uint256 => Campaign) public campaigns;
 
     uint256 public numberOfCampaigns = 0;
@@ -35,7 +33,6 @@ contract CrowdFunding {
         numberOfCampaigns++;
 
         return numberOfCampaigns - 1;
-
 
     }
 
